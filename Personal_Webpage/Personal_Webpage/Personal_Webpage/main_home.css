@@ -32,6 +32,10 @@ body {
     justify-content: flex-end;
 }
 
+.header .presentation {
+    background-image: url(Images/presentation.jpg);
+}
+
 
 .header {
     background-image: url('Images/employment.jpg');
