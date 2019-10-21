@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #81DAF5;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: darkblue;
+}
+.nav-link, .navbar-brand {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.nav-link {
+    font-variant: small-caps;
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #FE2E2E
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Header */
+.header {
+    background-image: url('Images/waterfall.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Welcome */
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.description p {
+    color: gold;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 450;
+    line-height: 1.5;
+}
+
+/* Button */
+.description button {
+    border: 3px solid white;
+    background: rgb(231, 245, 30);
+    border-radius: 0;
+    color: black;
+}
+
+.description button a:hover {
+    text-decoration: none;
+}
+
+.description button:hover {
+    border: 3.5px solid red;
+    background: rgb(240, 166, 7);
+    color: black;
+    font-weight: bold;
+}

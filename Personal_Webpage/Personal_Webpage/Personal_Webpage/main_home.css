@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(154, 127, 226);
+}
+
+/* Navigation Bar */
+.navbar {
+    background: darkblue;
+}
+.nav-link, .navbar-brand {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.nav-link {
+    font-variant: small-caps;
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #FE2E2E
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+.header {
+    background-image: url('Images/employment.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+  }
+
+.features p:first-of-type {
+    font-size: 20px;
+}
+
+.features ul li {
+    list-style: none;
+}
+
+.features ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+  .feature-title {
+    color: #333;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.3rem;
+    font-variant: small-caps;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    
+  }
+
+  .contact {
+      font-size: 20px;
+  }
+
+  .contact a {
+      color: black;
+      text-decoration: underline;
+  }
+
+  /*--- media queries ---*/
+
+@media (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: center;
+	}
+	
+	.description h1 {
+		font-size: 2em;
+	}
+	
+	.description p {
+		font-size: 1.2rem;
+	}
+	
+	.features {
+		margin: 0;
+	}
+
+}
